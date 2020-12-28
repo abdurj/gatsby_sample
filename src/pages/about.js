@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout'
 
 
-const about = () => {
+const About = () => {
     return (
         <Layout>
             <h1>
@@ -17,4 +17,6 @@ const about = () => {
         </Layout>
     )
 }
-export default about
+
+
+export default About

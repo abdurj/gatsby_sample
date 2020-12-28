@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 
 
 
-const index = () => {
+const Index = () => {
   return (
     <Layout>
       <h1>
@@ -16,4 +16,4 @@ const index = () => {
   )
 }
 
-export default index
+export default Index

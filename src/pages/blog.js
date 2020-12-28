@@ -1,20 +1,18 @@
 import React from 'react'
-import Header from '../components/header'
-import Footer from '../components/footer'
+
+import Layout from '../components/layout'
 
 
 const blog = () => {
     return (
-        <div>
-            <Header />
+        <Layout>
             <h1>
                 Blog
             </h1>
             <p>
                 I will post blog posts here
             </p>
-            <Footer />
-        </div>
+        </Layout>
     )
 }
 
